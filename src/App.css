@@ -1,0 +1,16 @@
+.github-png {
+  position: absolute;
+  bottom: 50px;
+  right: 55px;
+height: 80px !important;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .github-png {
+    position: absolute;
+    bottom: 160px !important; /* corrected typo from "buttom" to "bottom" */
+    height: 50px !important;
+    right: 15px;
+  }
+}

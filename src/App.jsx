@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import githubImg from "./images/github.png";
-
+import "./App.css"
 function App() {
   const [color, setColor] = useState("olive");
   return (
@@ -72,7 +72,7 @@ function App() {
           <img
             src={githubImg}
             alt="github"
-            className="h-20 absolute bottom-10 right-20 shadow-inner"
+            className="github-png shadow-inner"
           />
         </a>
       </div>
